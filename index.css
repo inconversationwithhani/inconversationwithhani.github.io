@@ -1,0 +1,80 @@
+body {
+    padding-bottom: 40px;
+    margin: 0px;
+}
+
+.fixed-header, .fixed-footer {
+    width: 100%;
+    position: fixed;
+    background: #020645;
+    color: #fff;
+}
+
+.fixed-header {
+    top: 0;
+    height: 40px;
+}
+
+.fixed-footer {
+    bottom: 0;
+    height: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+}
+
+.image-div {
+    margin-top: 40px;
+}
+
+#title-div {
+    float: right;
+    margin-right: 3em;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 1em;
+}
+
+#soundcloud-iframe-div {
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+}
+
+#text-after-soundcloud {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arabic-text {
+    color: #afafaf;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #020645;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#button-to-download-div {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    #soundcloud-iframe-div {
+        width: 95%;
+    }
+}
