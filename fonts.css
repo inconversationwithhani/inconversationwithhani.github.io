@@ -3,7 +3,6 @@
     font-family: 'Amiri';
     font-style: italic;
     font-weight: 400;
-    font-display: swap;
     src: local('Amiri Italic'), local('Amiri-Italic'), url(https://fonts.gstatic.com/s/amiri/v13/J7afnpd8CGxBHpUrhLQY67FIEjgjpQ.woff2) format('woff2');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
 }
@@ -12,7 +11,6 @@
     font-family: 'Amiri';
     font-style: italic;
     font-weight: 400;
-    font-display: swap;
     src: local('Amiri Italic'), local('Amiri-Italic'), url(https://fonts.gstatic.com/s/amiri/v13/J7afnpd8CGxBHpUrhL8Y67FIEjgjpQ.woff2) format('woff2');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -21,8 +19,31 @@
     font-family: 'Amiri';
     font-style: italic;
     font-weight: 400;
-    font-display: swap;
     src: local('Amiri Italic'), local('Amiri-Italic'), url(https://fonts.gstatic.com/s/amiri/v13/J7afnpd8CGxBHpUrhLEY67FIEjg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* arabic */
+@font-face {
+    font-family: 'Changa';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/changa/v9/2-c79JNi2YuVOUcOarRPgnNGooxCZ3O2cjLj8TlaxZKJa5UE.woff) format('woff');
+    unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Changa';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/changa/v9/2-c79JNi2YuVOUcOarRPgnNGooxCZ3O2cjnj8TlaxZKJa5UE.woff) format('woff');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Changa';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/changa/v9/2-c79JNi2YuVOUcOarRPgnNGooxCZ3O2cjfj8TlaxZKJaw.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* arabic */
@@ -30,7 +51,6 @@
     font-family: 'Harmattan';
     font-style: normal;
     font-weight: 400;
-    font-display: swap;
     src: local('Harmattan'), local('Harmattan-Regular'), url(https://fonts.gstatic.com/s/harmattan/v6/goksH6L2DkFvVvRp9XpjSUqisv5Io53K.woff2) format('woff2');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
 }
@@ -39,7 +59,6 @@
     font-family: 'Harmattan';
     font-style: normal;
     font-weight: 400;
-    font-display: swap;
     src: local('Harmattan'), local('Harmattan-Regular'), url(https://fonts.gstatic.com/s/harmattan/v6/goksH6L2DkFvVvRp9XpjTEqisv5Iow.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
@@ -48,7 +67,6 @@
     font-family: 'Markazi Text';
     font-style: normal;
     font-weight: 700;
-    font-display: swap;
     src: url(https://fonts.gstatic.com/s/markazitext/v11/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXf4EvAssjNLvRDSfR.woff) format('woff');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
 }
@@ -57,7 +75,6 @@
     font-family: 'Markazi Text';
     font-style: normal;
     font-weight: 700;
-    font-display: swap;
     src: url(https://fonts.gstatic.com/s/markazitext/v11/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXf4svAssjNLvRDSfR.woff) format('woff');
     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
@@ -66,7 +83,6 @@
     font-family: 'Markazi Text';
     font-style: normal;
     font-weight: 700;
-    font-display: swap;
     src: url(https://fonts.gstatic.com/s/markazitext/v11/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXf4ovAssjNLvRDSfR.woff) format('woff');
     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
@@ -75,7 +91,6 @@
     font-family: 'Markazi Text';
     font-style: normal;
     font-weight: 700;
-    font-display: swap;
     src: url(https://fonts.gstatic.com/s/markazitext/v11/sykh-ydym6AtQaiEtX7yhqb_rV1k_81ZVYYZtROXf4QvAssjNLvRDQ.woff) format('woff');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
@@ -84,7 +99,6 @@
     font-family: 'Tajawal';
     font-style: normal;
     font-weight: 700;
-    font-display: swap;
     src: local('Tajawal Bold'), local('Tajawal-Bold'), url(https://fonts.gstatic.com/s/tajawal/v3/Iurf6YBj_oCad4k1l4qkHrRpiZtK6GwN9w.woff2) format('woff2');
     unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
 }
@@ -93,7 +107,6 @@
     font-family: 'Tajawal';
     font-style: normal;
     font-weight: 700;
-    font-display: swap;
     src: local('Tajawal Bold'), local('Tajawal-Bold'), url(https://fonts.gstatic.com/s/tajawal/v3/Iurf6YBj_oCad4k1l4qkHrFpiZtK6Gw.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
