@@ -38,10 +38,9 @@ nav a {
 }
 
 
-#title-div {
+.title-div {
     margin: auto;
     font-size: 21px;
-    font-family: 'Changa', sans-serif;
     text-align: end;
 }
 
@@ -60,7 +59,7 @@ nav a {
 .arabic-text {
     color: #afafaf;
     font-size: 16px;
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Amiri', sans-serif;
     font-style: normal;
     font-weight: 400;
 }
