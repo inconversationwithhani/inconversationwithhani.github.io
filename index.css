@@ -20,6 +20,10 @@ body {
     height: 40px;
 }
 
+#banner {
+    width: 100%;
+}
+
 nav a {
     color: #fff;
     text-decoration: none;
@@ -31,23 +35,22 @@ nav a {
     margin-top: 40px;
 }
 
+
 #title-div {
-    float: right;
-    margin-right: 3em;
+    margin: auto;
     font-size: 21px;
-    font-weight: bold;
-    padding: 1em;
+    font-family: 'Changa', sans-serif;
+    text-align: end;
 }
 
 #soundcloud-iframe-div {
-    width: 77%;
+    margin-top: 0.2em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4em;
 }
 
 #text-after-soundcloud {
-    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -55,9 +58,13 @@ nav a {
 .arabic-text {
     color: #afafaf;
     font-size: 16px;
+    font-family: 'Cairo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 .btn {
+    font-family: 'Cairo', sans-serif;
     background-color: #020645;
     border: none;
     color: white;
@@ -73,8 +80,20 @@ nav a {
     margin-bottom: 20px;
 }
 
+.cn {
+    width: 61%;
+}
+
+.sc {
+    width: 61%;
+}
+
 @media screen and (max-width: 450px) {
-    #soundcloud-iframe-div {
+    .cn {
         width: 95%;
+    }
+
+    .sc {
+        width: 100%;
     }
 }
