@@ -94,6 +94,10 @@ nav a {
         width: 95%;
     }
 
+    #soundcloud-iframe-div {
+        margin-top: 0em;
+    }
+
     .sc {
         width: 100%;
     }
