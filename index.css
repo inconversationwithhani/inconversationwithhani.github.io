@@ -57,15 +57,15 @@ nav a {
 }
 
 .arabic-text {
-    color: #afafaf;
+    color: #666;
     font-size: 16px;
-    font-family: 'Amiri', sans-serif;
+    font-family: 'Mirza', sans-serif;
     font-style: normal;
     font-weight: 400;
 }
 
 .btn {
-    font-family: 'Cairo', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     background-color: #020645;
     border: none;
     color: white;
