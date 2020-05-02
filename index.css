@@ -33,18 +33,20 @@ nav a {
 
 .image-div {
     margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 #title-div {
     margin: auto;
     font-size: 21px;
-    font-family: 'Changa', sans-serif;
+    font-family: 'Cairo2', sans-serif;
     text-align: end;
 }
 
 #soundcloud-iframe-div {
-    margin-top: 0.2em;
+    margin-top: 4em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4em;
