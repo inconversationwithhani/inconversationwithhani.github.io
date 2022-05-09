@@ -42,6 +42,8 @@ nav a {
     margin: auto;
     font-size: 21px;
     text-align: end;
+    font-family: Roboto Black;
+    font-weight: bold;
 }
 
 #soundcloud-iframe-div {
